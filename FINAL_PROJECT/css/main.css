@@ -1,0 +1,58 @@
+/* styles for html */
+body {
+    width: 98%;
+    padding-left: .7em;
+    font-size: 100%;
+}
+
+/* styles for header */
+header h1 {
+    color: coral;
+    font-size: 300%;
+    text-align: center;
+}
+header h2 {
+    text-align: center;
+    font-style: italic;
+    color: darkblue;
+}
+header img {
+    float: left;
+    margin-left: 1em;
+}
+
+/* styles for navbar */
+nav {
+    font-size: 150%;
+    width: 80%;
+    margin: 0 10%;
+    color: coral;
+    font-weight: bold;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    margin-left: 5%;
+}
+nav li a {
+    color: coral;
+    text-decoration: none;
+}
+
+/* styles for main */
+#store {
+    float: left;
+    margin: 3em 3% 0 5%;
+    width: 42%;
+}
+iframe {
+    float: right;
+    margin: 3em 5% 0 3%;
+    position: relative;
+    width: 41%;
+}
